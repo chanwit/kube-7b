@@ -24,9 +24,18 @@ ollama run chanwit/kube-7b:v0.1
 ```
 
 ### Getting Started with Llamafile
-```
-curl
-chmod +x 
+
+Download from: [https://hf.co/chanwit/kube-7b-v0.1-gguf/kube-7b-v0.1.llamafile](https://hf.co/chanwit/kube-7b-v0.1-gguf/kube-7b-v0.1.llamafile)
+
+Here's the bash script to run the model with its system prompt.
+```shell
+(
+echo "<|system|>
+You are a Kube AI assistant.</s>
+<|user|>
+"$@"</s>
+<|assistant|>"
+) | ./kube-7b-v0.1.llamafile -t 8 --temp 0.1 2>/dev/null
 ```
 
 ## Prompt
