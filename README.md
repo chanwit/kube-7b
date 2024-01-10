@@ -43,3 +43,7 @@ Save it as `./kube-7b` then run `./kube-7b "What is Kubernetes?"` to try the mod
 ## Prompt
 
 The models in this collection use the `zephyr` prompt format.
+
+# Contributions
+
+Contributions to this project are greatly appreciated, specifically in the form of question and answer pairs, which will aid in the enhancement of future models. We are actively seeking contributions for a [new dataset centered around knowledge of Kubernetes 1.29](datasets/).
