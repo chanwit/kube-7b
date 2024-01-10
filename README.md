@@ -27,7 +27,7 @@ ollama run chanwit/kube-7b:v0.1
 
 Download from: [https://hf.co/chanwit/kube-7b-v0.1-gguf/kube-7b-v0.1.llamafile](https://huggingface.co/chanwit/kube-7b-v0.1-gguf/blob/main/kube-7b-v0.1.llamafile)
 
-Here's the bash script to run the model with its system prompt.
+Here's the `kube-7b` bash script to run the model with its system prompt.
 ```shell
 (
 echo "<|system|>
@@ -37,6 +37,8 @@ You are a Kube AI assistant.</s>
 <|assistant|>"
 ) | ./kube-7b-v0.1.llamafile -t 8 --temp 0.1 2>/dev/null
 ```
+
+Save it as `./kube-7b` then run `./kube-7b "What is Kubernetes?"` to try the model.
 
 ## Prompt
 
