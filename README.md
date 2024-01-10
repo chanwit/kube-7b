@@ -18,6 +18,17 @@ We have successfully used Mistral 8x7B to synthesize the initial dataset (`filte
 
 We use the tokenizer from Zephyr and the model is delivered as the GGUFv3 format supported by Ollama, Llamafile, and etc.
 
+### Getting Started with Ollama
+```
+ollama run chanwit/kube-7b:v0.1
+```
+
+### Getting Started with Llamafile
+```
+curl
+chmod +x 
+```
+
 ## Prompt
 
 The models in this collection use the `zephyr` prompt format.
