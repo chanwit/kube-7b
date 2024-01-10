@@ -25,7 +25,7 @@ ollama run chanwit/kube-7b:v0.1
 
 ### Getting Started with Llamafile
 
-Download from: [https://hf.co/chanwit/kube-7b-v0.1-gguf/kube-7b-v0.1.llamafile](https://hf.co/chanwit/kube-7b-v0.1-gguf/kube-7b-v0.1.llamafile)
+Download from: [https://hf.co/chanwit/kube-7b-v0.1-gguf/kube-7b-v0.1.llamafile](https://huggingface.co/chanwit/kube-7b-v0.1-gguf/blob/main/kube-7b-v0.1.llamafile)
 
 Here's the bash script to run the model with its system prompt.
 ```shell
