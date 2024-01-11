@@ -12,13 +12,16 @@ We have successfully used Mistral 8x7B to synthesize the initial dataset (`filte
 We use the tokenizer from Zephyr and the model is delivered as the GGUFv3 format supported by Ollama, Llamafile, and etc.
 
 ### Getting Started with Ollama
+
+Ollama is a CLI to run LLMs locally. To run this model with Ollama, please install it first by following the instructions [here](https://ollama.ai/download).
+
 ```
 ollama run chanwit/kube-7b:v0.1
 ```
 
 ### Getting Started with Llamafile
 
-Download from: [https://hf.co/chanwit/kube-7b-v0.1-gguf/kube-7b-v0.1.llamafile](https://huggingface.co/chanwit/kube-7b-v0.1-gguf/blob/main/kube-7b-v0.1.llamafile)
+Download from: [https://huggingface.co/chanwit/kube-7b-v0.1-gguf/blob/main/kube-7b-v0.1.llamafile](https://huggingface.co/chanwit/kube-7b-v0.1-gguf/blob/main/kube-7b-v0.1.llamafile)
 
 Here's the `kube-7b` bash script to run the model with its system prompt.
 ```shell
